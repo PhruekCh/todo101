@@ -41,7 +41,7 @@ function App() {
     <div style={{ padding: 20 }}>
       <h1>To-Do App</h1>
       <input value={text} onChange={(e) => setText(e.target.value)} />
-      <button onClick={addTask}>Add</button>
+      <button onClick={addTask}>create</button>
       <ul>
         {tasks.map(task => (
           <li key={task._id}>
